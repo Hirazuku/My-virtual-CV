@@ -8,6 +8,10 @@
     margin: 0px 10px;
     color: #333;
     font: 35px/2 'Oswald', sans-serif;
+    text-indent: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(142, 84, 8);
+    
 }
 
 .article__header--background {
