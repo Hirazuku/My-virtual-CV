@@ -7,8 +7,8 @@
 }
 
 .nav__item {
-    text-indent: 50px;
-    padding: 25px 0px;
+    text-indent: 0px;
+    padding: 15px 0px;
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
