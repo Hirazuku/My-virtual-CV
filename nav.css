@@ -8,22 +8,21 @@
 
 .nav__item {
     text-indent: 50px;
-    padding: 200px 0px;
+    padding: 50px 0px;
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
 }
 
 .nav__link {
-    margin: 20px 30px;
     color: rgb(104, 62, 0);
-    padding: 50px;
+    padding: 15px;
     background-color: rgba(109, 77, 8, 0.329);
     font-weight: 800;
     border: 5px solid rgba(109, 77, 8, 0.555);
     border-radius: 5px;
     box-shadow: 29px 14px 90px 2px rgba(109, 77, 8, 0.555);
-    font-size: 10px;
+    font-size: 20px;
     text-decoration: none;
     /* nav will function as a block element */
 }
