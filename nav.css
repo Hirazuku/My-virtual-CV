@@ -15,9 +15,9 @@
 }
 
 .nav__link {
-    color: rgb(104, 62, 0);
+    color: rgb(208, 201, 168);
     padding: 15px;
-    background-color: rgba(109, 77, 8, 0.329);
+    background-color: rgba(109, 77, 8, 0.726);
     font-weight: 800;
     border: 5px solid rgba(109, 77, 8, 0.555);
     border-radius: 5px;
