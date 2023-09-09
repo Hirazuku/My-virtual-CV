@@ -11,7 +11,7 @@
     text-indent: 50px;
     text-decoration-line: underline;
     text-decoration-color: rgb(142, 84, 8);
-    
+    text-decoration-style: double;
 }
 
 .article__header--background {
