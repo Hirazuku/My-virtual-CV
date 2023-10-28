@@ -122,3 +122,54 @@ heightElement.reset(); // resets form
 let body = document.documentElement // picks whole html
 let body = document.body // picks only body from html
 
+//BOOLEAN
+
+let liczba = 101;
+
+if (liczba < 100) {
+console.log("Liczba poniżej 100");
+} // checks if liczba is higher than 100 (boolean is default type of unknown)
+
+let liczbaNieJestZerem = !!liczba; // thanks to the operator !! liczba is converted to boolean (true or false type)
+
+//NULL
+
+let zmienna = null; // null is the type of unknown (only one value can be returned: null)
+typeof null === "object" // typeof can't return null
+
+//UNDEFINED
+
+let zmienna = undefined; // undefined is the type of unknown (only one value can be returned: undefined)
+zmienna === undefined; // we can check if "zmienna" is undefined
+
+//FUNKCJE
+
+function double(number){
+    return number * 2;
+    let zmienna = 20; // this parameter cannot be changed outside of function "double"
+} 
+
+let double = number => number * 2; // the same as above, only shorter version
+
+console.log(double(5)) // console will display doubled 5
+
+let myNumber = 5;
+console.log(double(myNumber)) // this will also work with the function double
+
+function triple(number){
+    const zmienna = 7; // this const value works only inside block "function triple"
+    return number * 3; // after return function ends even if there is some code after
+}
+
+double(5) // function will display 10
+let double = function (number){} // anonimous function;
+let double = function name(number){} // function with a name
+
+const zmienna = 7; // this const value works inside and outside the function
+console.log(triple(zmienna));
+
+let // variable that can be changed, most of the times "const" is used
+const // variable that cannot be changed, used in most of cases
+var // variable that can be used in whole function, outside of the block
+
+ctrl + click // you can check what does certain function do
