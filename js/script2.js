@@ -42,5 +42,5 @@
         });
     }
 
-    calculatePrice ();
+    calculatePrice();
 }
